@@ -142,3 +142,21 @@ button:hover {
 	cursor: pointer;
 }
 
+.cases .devices {
+	width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+	
+
+.cases h2 {
+	text-align: center;
+	margin: 1.625rem 0 3.125rem;
+	font-size: 2.75rem;
+	font-weight: 300;
+}
+
+
