@@ -122,6 +122,7 @@ letter-spacing: 0.03em;
 	background-size: cover;
 	height: 45.938rem;
 	overflow: auto;
+	position: relative;
 
 }
 
@@ -202,6 +203,49 @@ button:hover{
     
 }
 
+/* Buy Now Section */
+
+
+.buy-now {
+	background-image: url('../img/buy-now-bg.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	display: block;
+}
+
+.buy-now .content aside h2 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	color: #f15a27;
+	margin: 2.5rem 0px 1.875rem;
+	padding-top: 1px;
+
+}
+
+.buy-now .content aside {
+	width: 15rem;
+	height: 60%;
+	text-align: left;
+	position: absolute;
+	margin-top: 3rem;
+}
+
+.buy-now .content aside p {
+	font-weight: 300;
+	font-size: 1.15rem;
+	line-height: 1.5;
+	color: #4c5058;
+	margin-bottom: 1.250rem;
+}
+
+.buy-now .content aside .big-button {
+	float:left;
+	margin-top: -.5rem;
+
+}
+
 /* Footer */
 
 .social {
@@ -211,9 +255,9 @@ button:hover{
     text-align: center;
 }
 .social hr {
-    border: 0;
-    border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+   	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
 }
 .social .icons > li {
     border-radius: 1.25rem;
