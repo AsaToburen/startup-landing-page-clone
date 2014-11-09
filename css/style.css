@@ -45,11 +45,18 @@ ol, ul {
 	padding: 0px 15px;
 	margin: 0 auto;
 	width: 970px;
-	box-sizing: border-box;
+	color: #1d1e21;
+	text-align: center;
 }
+
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #838994;
+
 }
 
 .top-navigation > .content {
@@ -58,6 +65,8 @@ ol, ul {
 
 .top-navigation .logo {
 	height: 70px;
+	margin-left: -20rem;
+	display: inline;	
 }
 
 .top-navigation .links {
@@ -67,25 +76,26 @@ ol, ul {
     font-size: 16px;
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
-
+}
+.links a {
+	text-decoration: none;
+	color: #838994;
 }
 
- .top-navigation .links li {
+.top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
-
 }
-.top-navigation .links > .active {
+
+
+.top-navigation .links .active a {
     color: #4c5058;
     font-weight: 500;
-
 }
-
-
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
     cursor: pointer;
-    color: #333333;
-}    
+    color: #333333 ;
+}
 
 
 /* Typography */
@@ -137,26 +147,63 @@ letter-spacing: 0.03em;
 	margin-top: 2rem;
 }
 
-button:hover {
-	background-color:;
+
+button:hover{
 	cursor: pointer;
 }
 
-.cases .devices {
-	width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-}
-	
-
-.cases h2 {
+.cases .content {
+	height: 360px;
+	width: 960px;
 	text-align: center;
-	margin: 1.625rem 0 3.125rem;
+}
+
+.content > h2 {
+	margin-top: 10.5rem;
+	margin-bottom: 4.25rem;
 	font-size: 2.75rem;
 	font-weight: 300;
 }
+
+
+
+.cases .devices {
+    display: inline-flex;
+    flex-direction: row;
+    /* styles to assist with debugging */
+   
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10rem;
+
+}
+
+.devices h3 {
+	font-size: 1.5rem;
+	width: 100%;
+	margin-top: 2.25rem;
+	line-height: 1.25rem;
+}
+
+.devices p {
+	font-size: 1.25rem ;
+	font-weight: 300;
+	width: 100%;
+	margin-top: 1.60rem;
+	line-height: 1.25rem;
+}
+
+
+.devices li {
+	width: 33.3333333%;
+	display: inline;
+}
+
+
+
+
+
+
+
 
 
